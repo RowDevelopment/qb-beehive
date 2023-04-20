@@ -17,6 +17,20 @@ Enter the row-beekeeping script and read the sql file.
 Throw the images in the Depencies section to the inventory/html/images section of your inventory.
 
 # Step 4:
+qb-target/init.lua Config.TargetModels
+	["BEE"] = {
+		models = { `gate_beehive`, `gate_beehive02`, `gate_beehive03`,},
+		options = {
+			{
+				event = "row-beekeeping:checkBeehive",
+				icon = "fas fa-archive",
+				label = "Check",
+			},
+		},
+		distance = 1.5
+	},
+
+# Step 5:
 After that, you can enter the game and start using it. Thank you again.
 
 # Row Development
