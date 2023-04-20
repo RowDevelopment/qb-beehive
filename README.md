@@ -20,3 +20,6 @@ Throw the images in the Depencies section to the inventory/html/images section o
 After that, you can enter the game and start using it. Thank you again.
 
 # Row Development
+
+Support
+Discord: https://discord.gg/c9dS9ruDyV
